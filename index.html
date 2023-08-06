@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather Dashboard</title>
-  <style>
-    <link rel="stylesheet" href="script.css">
- /*css styles for weather dashboard*/
-  </style>
-  //css styles for weather dashboard//
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./script.css"/>
+    <title>Weather</title>
 </head>
 <body>
-  <h1>Weather Dashboard</h1>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+        <main> 
+        <form>
+            <label for ="location-input">Location</label>
+            <input type ="text" id="location-input" />
+            <button type="submit">Search</button>
+            <section id="list">
 
-  <form id="cityForm">
-  <input type="text" id="cityInput" placeholder="Enter city name">
-  <button type="submit">Search</button>
-</form>
+            </section>
+        </form>
+        <section id="current">
+            <section id = "weather"></section>
 
-<div id="wetherData">
-  <!--Weather data will be dynamically added here -->
-</div>
-
-<script>
-  // javascript code for retrieving and displaying weather date
-</script>
+        </section>
+        <section id="cards">
+            <section id = "forecast"></section>
+            <section id = "forecast"></section>
+            <section id = "forecast"></section>
+            <section id = "forecast"></section>
+            <section id = "forecast"></section>
+        </section>
+    <main>    
+    <script src = "./index.js"></script>    
 </body>
-
 </html>

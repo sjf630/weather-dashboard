@@ -1,64 +1,20 @@
-/* script.css*/
-body{
-  font-family: arial, sans-serif;
-  margin: 0
-  padding: 20px
-}
-
-h1{
+html, body, * {
   text-align: center;
 }
 
-form{
-  text-align: center;
-  margin-bottom: 20px;
+body {
+  background: rgb(21, 120, 212);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-input[type="text"]{
-padding: 8px;
-font-size: 16px;
-border-radius: 4px;
-}
-
-button[type="submit"] {
-  padding: 8px 16px;
-  font-size: 16px;
-  background-color: #4CAF50;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-#weatherData {
+#cards {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#current {
+  display: flex;
   justify-content: center;
-}
-
-.weather-card {
-  width: 200px;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.weather-card h2 {
-  font-size: 18px;
-  margin 5px 0;
-}
-
-.weather-card .temperature {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.weather-card .humidity {
-  color: #888
+  
 }
